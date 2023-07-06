@@ -8,7 +8,7 @@ Only usage from figma API available now.
 
 Figma API key available on [this page](https://www.figma.com/developers/api#get-files-endpoint).
 
-Document ID could be found in document url: "https://www.figma.com/file/{Document ID}" 
+Document ID could be found in document url: "https://www.figma.com/file/Document_ID" 
 
 ```swift
 import FigmaUI

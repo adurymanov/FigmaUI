@@ -31,7 +31,7 @@ https://github.com/adurymanov/FigmaUI/assets/21358938/38587542-a4f5-43ec-a0fe-5d
 To use the FigmaUI library in a SwiftPM project, add the following line to the dependencies in your Package.swift file:
 
 ```swift
-.package(url: "https://github.com/apple/swift-async-algorithms"),
+.package(url: "https://github.com/adurymanov/FigmaUI"),
 ```
 
 Include "FigmaUI" as a dependency for your executable target:

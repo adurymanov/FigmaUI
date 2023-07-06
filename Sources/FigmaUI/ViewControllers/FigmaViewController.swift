@@ -15,7 +15,7 @@ public final class FigmaViewController: UIViewController {
     public init(
         apiKey: String,
         documentId: String,
-        designSystem: FigmaDesignSystem,
+        designSystem: FigmaDesignSystem = EmptyDesignSystem(),
         rootView: @escaping (FigmaDocument.DocumentView) -> (any FigmaUI.View)?
     ) {
         self.documentId = documentId

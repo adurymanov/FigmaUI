@@ -2,7 +2,7 @@ import Foundation
 
 struct FigmaTypeStyle: Decodable {
     
-    let fontWeight: FigmaFrontWeight
+    let fontWeight: FigmaFontWeight
     
     let fontSize: Double
     

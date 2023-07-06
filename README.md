@@ -7,6 +7,7 @@ FigmaUI is a framework for rendering figma documents in your application using U
 Only usage from figma API available now. 
 
 Figma API key available on [this page](https://www.figma.com/developers/api#get-files-endpoint).
+
 Document ID could be found in document url: "https://www.figma.com/file/{Document ID}" 
 
 ```swift
@@ -19,6 +20,11 @@ let figmaViewController = FigmaViewController(
     document.firstView(withName: "<Figma view name>")
 }
 ```
+
+## Example
+
+https://github.com/adurymanov/FigmaUI/assets/21358938/38587542-a4f5-43ec-a0fe-5dd29385a75c
+
 
 ## Adding FigmaUI as a Dependency
 

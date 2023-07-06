@@ -8,7 +8,7 @@ Only usage from figma API available now.
 
 Figma API key available on [this page](https://www.figma.com/developers/api#get-files-endpoint).
 
-Document ID could be found in document url: "https://www.figma.com/file/{Document ID}" 
+Document ID could be found in document url: "https://www.figma.com/file/Document_ID" 
 
 ```swift
 import FigmaUI
@@ -31,7 +31,7 @@ https://github.com/adurymanov/FigmaUI/assets/21358938/38587542-a4f5-43ec-a0fe-5d
 To use the FigmaUI library in a SwiftPM project, add the following line to the dependencies in your Package.swift file:
 
 ```swift
-.package(url: "https://github.com/apple/swift-async-algorithms"),
+.package(url: "https://github.com/adurymanov/FigmaUI"),
 ```
 
 Include "FigmaUI" as a dependency for your executable target:
